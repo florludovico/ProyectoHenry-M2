@@ -1,0 +1,385 @@
+body {
+  background-color:#000000;
+  width: auto;
+  height: auto;
+
+}
+
+header {
+  width: 100%;
+  height: 89px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+header img {
+  width: 100px;
+  height: 89px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #b7b5b5;
+  margin-left: 5px;
+}
+
+
+
+header nav ul {
+ padding-top: 10px ;
+ 
+}
+
+.main-index {
+  margin: auto;
+  background-color: #ffffff;
+
+}
+
+#movieTitle {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color:cornsilk;
+  text-align: center;
+  background-color: #000000;
+  border: rgb(0, 0, 0) solid 2px;
+  
+}
+
+#movie-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto 10px;
+  gap: 25px;
+  
+}
+
+.movies-container{
+  width: 350px;
+  height: 630px;
+  border: solid black 2px;
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 0.2vw;
+  margin: 0.6vw;
+  word-wrap: break-word;
+  border: rgb(0, 0, 0) solid 2px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+}
+.movies-container:hover {
+  background-color: rgb(244, 244, 244);
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.movie-title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.movie-year,
+.movie-director,
+.movie-duration,
+.movie-genre,
+.movie-rate {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.movie-poster {
+  width: auto;
+  height: 360px;
+  object-fit:contain;
+}
+
+#movie-container img {
+  display: block;
+  margin: auto;
+  
+}
+
+footer{
+  height: 50px;
+  width: auto;
+  margin: 40px 0 20px 0;
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #626262;
+  background-color: #FFFAFA;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+/* css de paginas estaticas  */
+.main-second {
+  width: auto;
+  height: auto;
+  margin: auto;
+  background-color: #000000;
+}
+
+
+.titleSecondPages {
+  height: 100px;
+  width: 300px;
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: cornsilk;
+
+}
+
+
+#section-winners{
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 60px;
+
+}
+
+.subtitleSecondPages{
+  height: 50px;
+  width: 100%;
+  padding: 5px 0 0 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #626262;
+  background-color: #FFFAFA;
+  border:solid white 2px;
+  
+}
+
+
+.winers-div-container{
+  margin: 15px 0 0 5px;
+}
+
+.oscars-titles{
+  height: auto;
+  width: auto;
+  margin: auto;
+  padding: 0 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #222222;
+  border: transparent solid 2px;
+  border-radius: 15px;
+
+}
+
+.winners-container{
+  height: auto;
+  width: auto;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  color: #ffffff;
+  padding: 0 10px;;
+  
+}
+
+h4{
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 3px;
+}
+
+#imgMikeyMadisonOscar{
+  width: auto;
+  height: 470px;
+  margin: 10px 0  0 120px;
+  border-radius: 3px;
+  border: solid white 1px;
+  padding: 7px
+  
+}
+
+#imgText{
+  width:100%;
+  max-width: 309px;
+  word-break: break-all;
+  margin-left: 120px;
+  color:#ffffff;
+  font-size: 13px;
+  text-align: center;
+
+}
+
+#titleWhatToWatch {
+  height: 100px;
+  width: 400px;
+  margin-left: 20px;
+  padding-top :15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: cornsilk;
+
+}
+
+.popularMovies{
+  height: 50px;
+  width: 30%;
+  margin-left: 10px;
+  padding: 5px 0 0 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  color: #FFFAFA;
+
+}
+
+.divCarousel{
+  
+  background-color: #121212;
+}
+
+.titleAboutThisProyect{
+  height: auto;
+  width: fit-content;
+  margin: auto;
+  padding: 13px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: cornsilk;
+  border-bottom: 4px solid #d8d4d2;  
+}
+
+.aboutSection{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  height: auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.aboutSection div {
+  flex: 1;
+  height: 395px;
+}
+
+.aboutSection p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #FFFAFA;
+  text-align: justify;
+  padding-top: 10px
+}
+
+.aboutSection img {
+  width: 100%;
+  max-width: 400px;
+  height: 335px;
+  border-radius: 10px;
+ 
+}
+
+.formTitle{
+  height: 100px;
+  width: 350px;
+  margin:20px auto 0px auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: cornsilk;
+  text-align: center;
+
+}
+
+form {
+  padding: 20px;
+  text-align: left;
+  border:cornsilk solid 2px;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+label {
+  font-size: 16px;
+  font-weight: bolder;
+  color: cornsilk;
+}
+
+#formAddMovies {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-size: contain;
+}
+
+input::placeholder{
+  color: #888;
+  font-style: italic;
+}
+
+#title,
+#year,
+#director,
+#duration_hours,
+#duration_min,
+#rate,
+#genre,
+#poster {
+  background-color: floralwhite;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.addButton {
+  background-color: #dadee3;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px black solid;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.addButton:hover {
+  background-color: rgb(192, 202, 212);
+}

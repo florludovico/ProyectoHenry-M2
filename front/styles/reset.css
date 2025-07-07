@@ -1,0 +1,66 @@
+/* reset.css */
+
+/* Elimina el espacio por defecto y márgenes de todos los elementos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Elimina los estilos predeterminados de las listas */
+ol, ul {
+  list-style: none;
+}
+
+/* Elimina los bordes predeterminados en las tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Asegura que las imágenes no se desborden */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Elimina los estilos de los formularios */
+input, button, textarea, select {
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+}
+
+/* Establece un estilo básico para los enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Ajuste del tipo de fuente para todo el cuerpo */
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Establece que los elementos <h1>, <h2>, <h3>, etc. no tengan márgenes y se ajusten al flujo normal */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+/* Elimina la apariencia predeterminada de los botones */
+button {
+  cursor: pointer;
+}
+
+/* Define un estilo básico para los campos de texto y entradas */
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
